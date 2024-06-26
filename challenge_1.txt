@@ -1,0 +1,39 @@
+Create Product store with structure/schema like below
+
+id: integer unique /max length 10
+name string/ max length 30
+price double // precioion 8 , scale max 2
+category   string/ max 20
+
+
+1) Print details of all product orderered by price in descending 
+
+      product_id, product_name, product_price, product_category
+
+2) count all the products and display result like below
+
+products_count
+20
+
+3) count all the products where price is greater than 10,000
+
+products_count
+5
+
+4) find all the categories(distinct) of products
+
+products_categories
+electronics
+mechnaical
+
+5) find the total cost of all products in the inventory
+
+  products_count  TotalPrice   
+   10			20000
+
+
+
+
+
+
+
