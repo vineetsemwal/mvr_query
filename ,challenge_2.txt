@@ -1,0 +1,28 @@
+
+An ecommerce company has below structure/schema  for the orders storage
+It wants helps in doing operations mentioned below
+
+created_orders{
+
+id://16 characters fixed , primary key
+units: integer  ,not null
+
+category: varying characters max length 20, not null
+
+amount : precision 6 digits, scale 3 digits  ,not null
+
+orderDate: date with time // timestamp ,not null
+
+customer_id: number  , not null
+}
+
+
+1) Find number of orders created
+2)Find the customer details who have created order for category electronics
+3) Find count of number of unique customers
+4) Find top 3 customers who have created maximum orders in descending order of name
+5)Find the total sale on date 28 june 2024
+6)Find order details of the lowest amount order
+7) find the number of customers who created order on 28 june 2024
+8) Print categories along with orders count in decreaing order of popularity
+9) Print top 3 categories in ascending order of popularity
